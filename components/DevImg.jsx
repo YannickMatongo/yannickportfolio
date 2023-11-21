@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Devlmg = ({containerStyles, imgSrc}) => {
+const DevImg = ({containerStyles, imgSrc}) => {
   return (
     <div className={`${containerStyles}`}>
       <Image src={imgSrc} fill priority alt='' />
@@ -8,4 +8,4 @@ const Devlmg = ({containerStyles, imgSrc}) => {
   )
 }
 
-export default Devlmg
+export default DevImg
