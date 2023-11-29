@@ -23,7 +23,7 @@ const projectData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, similique.",
     link: "/",
-    github: "/",
+    github: "https://github.com/YannickMatongo",
   },
   {
     image: "/work/4.png",
@@ -32,16 +32,16 @@ const projectData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, similique.",
     link: "/",
-    github: "/",
+    github: "https://github.com/YannickMatongo",
   },
   {
-    image: "/word/2.png",
+    image: "/work/2.png",
     category: "react JS",
     name: "Lumina Website",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, similique.",
     link: "/",
-    github: "/",
+    github: "https://github.com/YannickMatongo",
   },
   {
     image: "/work/1.png",
@@ -50,7 +50,7 @@ const projectData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, similique.",
     link: "/",
-    github: "/",
+    github: "https://github.com/YannickMatongo",
   },
   {
     image: "/work/3.png",
@@ -59,7 +59,7 @@ const projectData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, similique.",
     link: "/",
-    github: "/",
+    github: "https://github.com/YannickMatongo",
   },
   {
     image: "/work/4.png",
@@ -68,7 +68,7 @@ const projectData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, similique.",
     link: "/",
-    github: "/",
+    github: "https://github.com/YannickMatongo",
   },
   {
     image: "/work/1.png",
@@ -77,7 +77,7 @@ const projectData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, similique.",
     link: "/",
-    github: "/",
+    github: "https://github.com/YannickMatongo",
   },
 ];
 
@@ -98,7 +98,7 @@ const Work = () => {
         {/* slider */}
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-3">
           <Swiper
-            className="h-[480px] bg-pink-100"
+            className="h-[480px]"
             slidesPerView={1}
             breakpoints={{
               640: {
@@ -110,7 +110,7 @@ const Work = () => {
             pagination={{clickable: true }}
           >
             {/* Show onlu the first 4 projects for the slides */}
-            {projectData.slice(0.4).map((project, index) => {
+            {projectData.slice(0, 4).map((project, index) => {
               return (
                 <SwiperSlide key={index}>
                   <ProjectCard project={project} />
