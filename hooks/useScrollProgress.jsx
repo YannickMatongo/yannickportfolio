@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { number } from "zod";
 
-const useSCrollProgress = () => {
+const useScrollProgress = () => {
     const [completion, setCompletion] = useState(0);
 
     useEffect(()=> {
@@ -22,4 +22,4 @@ const useSCrollProgress = () => {
   return completion;
 };
 
-export default useSCrollProgress;
+export default useScrollProgress;

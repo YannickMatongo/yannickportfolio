@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 // hooks
-import useSCrollProgress from "@/hooks/useSCrollProgress";
+import useScrollProgress from "@/hooks/useScrollProgress";
 
 // variants
 const variants = {
@@ -11,7 +11,7 @@ const variants = {
 };
 
 const Template = ({ children }) => {
-  const completion = useSCrollProgress();
+  const completion = useScrollProgress();
   return (
     <>
       <motion.main

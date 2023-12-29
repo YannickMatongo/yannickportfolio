@@ -10,7 +10,7 @@ const Cta = () => {
             Prêt à transformer vos idées en réalité ? Je suis là pour vous aider{" "}
           </h2>
           <Link href="/contact">
-            <Button>Contact me</Button>
+            <Button>Contactez-moi</Button>
           </Link>
         </div>
       </div>
