@@ -23,7 +23,7 @@ const infoData = [
   },
   {
     icon: <MailIcon size={20} />,
-    text: "nay77127@gmail.com",
+    text: "yannick.matongo03@gmail.com",
   },
   {
     icon: <Calendar size={20} />,
@@ -168,7 +168,7 @@ const About = () => {
                   className="w-162px xl:w-auto"
                   value="qualifications"
                 >
-                  Diplômes
+                  Parcours
                 </TabsTrigger>
                 <TabsTrigger className="w-162px xl:w-auto" value="skills">
                   Compétences

@@ -12,19 +12,19 @@ const servicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Conception web",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, recusandae!",
+      "Design web intuitif, esthétique, et captivant pour votre présence en ligne",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "developpement web",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, recusandae!",
+      "Transformez vos idées en sites performants avec maîtrise complète du développement.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "developpement d'Application",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, recusandae!",
+      "Applications mobiles novatrices, réactives, et en phase avec les tendances.&éa",
   },
 ];
 

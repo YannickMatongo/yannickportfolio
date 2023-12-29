@@ -26,7 +26,7 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Bonjour, Mon nom est Yannick Matongo</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Brève description de moi-même, de mon parcours professionnel et de
+              Description de moi-même, de mon parcours professionnel et de
               mes activités professionnelles
             </p>
             {/* buttons */}
@@ -63,17 +63,17 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
               icon={<RiTodoFill />}
-              endCountNum={6}
-              endCountText="k"
-              badgeText="projets terminés"
+              endCountNum={20}
+              // endCountText="k"
+              badgeText="sites web développés"
             />
             {/* badge 3 */}
             <Badge
               containerStyles="absolute top-[55%] -right-8"
               icon={<RiTeamFill />}
-              endCountNum={9}
-              endCountText="k"
-              badgeText="clients satisfaits"
+              endCountNum={6}
+              // endCountText="k"
+              badgeText="langages programmation"
             />
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <Devlmg

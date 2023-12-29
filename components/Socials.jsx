@@ -11,26 +11,16 @@ import {
 import Link from "next/link";
 
 const icons = [
+
   {
-    path: "/",
-    name: <RiYoutubeFill />,
-  },
-  {
-    path: "/",
+    path: "https://www.linkedin.com/in/yannick-matongo-09851b206/",
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/YannickMatongo",
     name: <RiGithubFill />,
   },
-  {
-    path: "/",
-    name: <RiFacebookFill />,
-  },
-  {
-    path: "/",
-    name: <RiInstagramFill />,
-  },
+
 ];
 
 const Socials = ({ containerStyles, iconsStyles }) => {
